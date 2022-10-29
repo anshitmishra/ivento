@@ -56,10 +56,10 @@
     padding: 2px 20px;
     margin: 0px 5px;
     font-size: 17px;
-    text-align: center;
+    text-align: left;
     text-transform: capitalize;
     font-family: 'Ubuntu', sans-serif;
-    display: inline-block;
+    display: block;
     cursor: pointer;
 }
 
@@ -310,10 +310,10 @@
         padding: 2px 20px;
         margin: 0px 5px;
         font-size: 17px;
-        text-align: center;
+        text-align: left;
         text-transform: capitalize;
         font-family: 'Ubuntu', sans-serif;
-        display: inline-block;
+        display: block;
         cursor: pointer;
     }
     
