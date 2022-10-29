@@ -65,6 +65,7 @@
     width: auto;
     height: auto;
     padding: 10px;
+    z-index: 999999999999999;
 }
 
 .main_design_two span {
@@ -1730,6 +1731,7 @@
         width: auto;
         height: auto;
         padding: 10px;
+        z-index: 999999999999;
     }
 
     .main_design_two span {

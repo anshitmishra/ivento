@@ -59,7 +59,7 @@
     text-align: left;
     text-transform: capitalize;
     font-family: 'Ubuntu', sans-serif;
-    display: block;
+    display: inline-block;
     cursor: pointer;
 }
 
@@ -79,6 +79,7 @@
     width: 100%;
     transition: all .4s ease;
 }
+
 .main_header_menu_item_holder_two {
     display: none;
 }
@@ -107,17 +108,20 @@
     .header_main_logo img {
         max-height: 45px;
     }
+
     .main_header_menu_box_icon {
         display: inline-block;
         font-size: 25px;
     }
-    .main_header_menu_item_holder{
+
+    .main_header_menu_item_holder {
         display: none;
     }
+
     .main_header_menu_item_holder_two {
         position: fixed;
         top: 0px;
-        right:0px;
+        right: 0px;
         width: 100%;
         height: 100%;
         background: white;
@@ -126,6 +130,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .main_header_menu_box_icon_close {
         position: absolute;
         top: 10px;
@@ -135,6 +140,7 @@
         font-size: 20px;
 
     }
+
     .header_main_logo_two {
         position: relative;
         width: 100%;
@@ -142,6 +148,7 @@
         padding: 10px;
         display: block;
     }
+
     .main_header_menu_item_two {
         position: relative;
         width: auto;
@@ -155,7 +162,7 @@
         cursor: pointer;
         display: block;
     }
-    
+
     .main_header_menu_item_two::after {
         content: '';
         position: absolute;
@@ -167,12 +174,12 @@
         border-radius: 15px;
         transition: all .7s ease;
     }
-    
+
     /* .main_header_menu_item_two {
         position: ;
     } */
 
- 
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -185,17 +192,20 @@
     .header_main_logo img {
         max-height: 45px;
     }
+
     .main_header_menu_box_icon {
         display: inline-block;
         font-size: 25px;
     }
-    .main_header_menu_item_holder{
+
+    .main_header_menu_item_holder {
         display: none;
     }
+
     .main_header_menu_item_holder_two {
         position: fixed;
         top: 0px;
-        right:0px;
+        right: 0px;
         width: 100%;
         height: 100%;
         background: white;
@@ -204,6 +214,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .main_header_menu_box_icon_close {
         position: absolute;
         top: 10px;
@@ -213,6 +224,7 @@
         font-size: 20px;
 
     }
+
     .header_main_logo_two {
         position: relative;
         width: 100%;
@@ -220,6 +232,7 @@
         padding: 10px;
         display: block;
     }
+
     .main_header_menu_item_two {
         position: relative;
         width: auto;
@@ -233,7 +246,7 @@
         cursor: pointer;
         display: block;
     }
-    
+
     .main_header_menu_item_two::after {
         content: '';
         position: absolute;
@@ -245,7 +258,7 @@
         border-radius: 15px;
         transition: all .7s ease;
     }
-    
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -260,7 +273,7 @@
         background-color: white;
         overflow: hidden;
     }
-    
+
     .header_main_logo {
         position: absolute;
         top: 50%;
@@ -270,7 +283,7 @@
         height: auto;
         max-height: 65px;
     }
-    
+
     .header_main_logo img {
         position: relative;
         width: auto;
@@ -278,8 +291,8 @@
         max-height: 65px;
         object-fit: cover;
     }
-    
-    
+
+
     /* menu items */
     .main_heaeder_menu_holder {
         position: absolute;
@@ -289,21 +302,21 @@
         width: auto;
         height: auto;
     }
-    
+
     /* menu icon */
     .main_header_menu_box_icon {
         display: none;
     }
-    
+
     .main_header_menu_item_holder {
         position: relative;
         width: auto;
         height: auto;
         padding: 10px;
-        display: block;
+        display: inline-block;
 
     }
-    
+
     .main_header_menu_item {
         position: relative;
         width: auto;
@@ -313,10 +326,10 @@
         text-align: left;
         text-transform: capitalize;
         font-family: 'Ubuntu', sans-serif;
-        display: block;
+        display: inline-block;
         cursor: pointer;
     }
-    
+
     .main_header_menu_item::after {
         content: '';
         position: absolute;
@@ -328,11 +341,25 @@
         border-radius: 15px;
         transition: all .7s ease;
     }
-    
+
     .main_header_menu_item:hover::after {
         width: 100%;
         transition: all .4s ease;
     }
+
+    .main_header_menu_item_holder_two {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .main_header_menu_item_holder_two {
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
     .main_header_menu_item_holder_two {
         display: none;
     }

@@ -45,16 +45,16 @@ const Header = () => {
                 </div>
                 <div>
 
-                    <div className={style.main_header_menu_item}>
+                    <div className={style.main_header_menu_item_two}>
                         <Link href="/team"><p>tech</p></Link>
                     </div>
-                    <div className={style.main_header_menu_item}>
+                    <div className={style.main_header_menu_item_two}>
                         <Link href="/team"><p>non-tech</p></Link>
                     </div>
-                    <div className={style.main_header_menu_item}>
+                    <div className={style.main_header_menu_item_two}>
                         <Link href="/team"><p>esports</p></Link>
                     </div>
-                    <div className={style.main_header_menu_item}>
+                    <div className={style.main_header_menu_item_two}>
                         <Link href="/team"><p>Team</p></Link>
                     </div>
                     {/* <Link href="/home/#tech"><div className={style.main_header_menu_item}>

@@ -25,10 +25,10 @@ const Home = () => {
 
                         {/* design two */}
                         <div className={style.main_design_two}>
-                            <a href="https://www.facebook.com/people/ivento_itm/100086248157978/" target={"_blank"}  rel={"noreferrer"}><span><FaFacebookF /></span></a>
-                            <a href="https://www.instagram.com/ivento_itm/" target={"_blank"}  rel={"noreferrer"}><span><FaInstagram /></span></a>
-                            <a href="https://twitter.com/ivento_itm?s=20&t=6DxUTd_UE9nUUTXjtGN3WQ" target={"_blank"}  rel={"noreferrer"}><span><FaTwitter /></span></a>
-                            <a href="https://discord.com/invite/QxKUswx7KZ" target={"_blank"}  rel={"noreferrer"}><span><TbBrandDiscord /></span></a>
+                           <span> <a href="https://www.facebook.com/people/ivento_itm/100086248157978/" target={"_blank"}  rel={"noreferrer"}><FaFacebookF /></a></span>
+                            <span><a href="https://www.instagram.com/ivento_itm/" target={"_blank"}  rel={"noreferrer"}><FaInstagram /></a></span>
+                            <span><a href="https://twitter.com/ivento_itm?s=20&t=6DxUTd_UE9nUUTXjtGN3WQ" target={"_blank"}  rel={"noreferrer"}><FaTwitter /></a></span>
+                            <span><a href="https://discord.com/invite/QxKUswx7KZ" target={"_blank"}  rel={"noreferrer"}><TbBrandDiscord /></a></span>
                         </div>
 
 
