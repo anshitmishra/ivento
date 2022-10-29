@@ -18,18 +18,18 @@ const Header = () => {
                         <RiMenu4Fill />
                     </div>
                     <div className={style.main_header_menu_item_holder}>
-                        <Link href="/home/#tech"><div className={style.main_header_menu_item}>
-                            <p>tech</p>
-                        </div></Link>
-                        <Link href="/home/#non-tech"><div className={style.main_header_menu_item}>
-                            <p>non-tech</p>
-                        </div></Link>
-                        <Link href="/home/#esports"><div className={style.main_header_menu_item}>
-                            <p>esports</p>
-                        </div></Link>
-                        <Link href="/team"><div className={style.main_header_menu_item}>
-                            <p>Team</p>
-                        </div></Link>
+                        <div className={style.main_header_menu_item}>
+                            <Link href="/team"><p>tech</p></Link>
+                        </div>
+                        <div className={style.main_header_menu_item}>
+                            <Link href="/team"><p>non-tech</p></Link>
+                        </div>
+                        <div className={style.main_header_menu_item}>
+                            <Link href="/team"><p>esports</p></Link>
+                        </div>
+                        <div className={style.main_header_menu_item}>
+                            <Link href="/team"><p>Team</p></Link>
+                        </div>
                         {/* <Link href="/home/#tech"><div className={style.main_header_menu_item}>
                             <p>about-us</p>
                         </div></Link> */}
@@ -44,18 +44,19 @@ const Header = () => {
                     <img src="./images/logo.png" alt="ivento logo" />
                 </div>
                 <div>
-                    <Link href="/home/#tech"><div className={style.main_header_menu_item}>
-                        <p>tech</p>
-                    </div></Link>
-                    <Link href="/home/#non-tech"><div className={style.main_header_menu_item}>
-                        <p>non-tech</p>
-                    </div></Link>
-                    <Link href="/home/#esports"><div className={style.main_header_menu_item}>
-                        <p>esports</p>
-                    </div></Link>
-                    <Link href="/team"><div className={style.main_header_menu_item}>
-                        <p>Team</p>
-                    </div></Link>
+
+                    <div className={style.main_header_menu_item}>
+                        <Link href="/team"><p>tech</p></Link>
+                    </div>
+                    <div className={style.main_header_menu_item}>
+                        <Link href="/team"><p>non-tech</p></Link>
+                    </div>
+                    <div className={style.main_header_menu_item}>
+                        <Link href="/team"><p>esports</p></Link>
+                    </div>
+                    <div className={style.main_header_menu_item}>
+                        <Link href="/team"><p>Team</p></Link>
+                    </div>
                     {/* <Link href="/home/#tech"><div className={style.main_header_menu_item}>
                         <p>about-us</p>
                     </div></Link> */}

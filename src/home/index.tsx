@@ -25,10 +25,10 @@ const Home = () => {
 
                         {/* design two */}
                         <div className={style.main_design_two}>
-                            <span><FaFacebookF /></span>
-                            <span><FaInstagram /></span>
-                            <span><FaTwitter /></span>
-                            <span><TbBrandDiscord /></span>
+                            <a href="https://www.facebook.com/people/ivento_itm/100086248157978/" target={"_blank"}  rel={"noreferrer"}><span><FaFacebookF /></span></a>
+                            <a href="https://www.instagram.com/ivento_itm/" target={"_blank"}  rel={"noreferrer"}><span><FaInstagram /></span></a>
+                            <a href="https://twitter.com/ivento_itm?s=20&t=6DxUTd_UE9nUUTXjtGN3WQ" target={"_blank"}  rel={"noreferrer"}><span><FaTwitter /></span></a>
+                            <a href="https://discord.com/invite/QxKUswx7KZ" target={"_blank"}  rel={"noreferrer"}><span><TbBrandDiscord /></span></a>
                         </div>
 
 
@@ -109,9 +109,9 @@ const Home = () => {
                                             Options -- {'(Click Option)'}<br />
                                         </p>
                                         <ul>
-                                            <li>Join Club</li>
-                                            <li>Details IventO Tech Team</li>
-                                            <li>Scroll Down To Explore More</li></ul>
+                                        <a href="https://www.instagram.com/ivento_itm/" target={"_blank"}  rel={"noreferrer"}><li>Join Club</li></a>
+                                        <a href="https://www.instagram.com/ivento_itm/" target={"_blank"}  rel={"noreferrer"}><li>Details IventO Tech Team</li></a>
+                                        <a href="#esports" ><li>Scroll Down To Explore More</li></a></ul>
 
                                     </div>
                                 </div>
@@ -145,7 +145,7 @@ const Home = () => {
                             <div className={style.main_section_three_holder_item_two_design}>
                                 <h2>eSports </h2>
                                 <p>I{'\''}vent{'\''}O is first club of itm that organize and support e-sports. we are organizing a esports event on 12th of Nov 2022. so join us and show case what you got!</p>
-                                <button>join event</button>
+                                <a href="https://forms.gle/pX8GCNrcukK5wvhh7" target={"_blank"}  rel={"noreferrer"}><button>join event</button></a>
                                 <div className={style.main_section_three_holder_item_two_design_design}>
                                     <p style={{ color: "#38dfc9" }}><BsTriangle /></p>
                                     <p style={{ color: "#d692be" }}><BiCheckbox /></p>
@@ -168,7 +168,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className={style.main_design_four_holder_item_two}>
-                            <div className={style.main_design_four_holder_item_one_design}>
+                            <div className={style.main_design_four_holder_item_one_design} style={{zIndex:"99",bottom:"0px",padding:"5px"}}>
                                 <span></span><span></span><span></span><span></span><span></span><br /><span></span><span></span><span></span><span></span><span></span><br /><span></span><span></span><span></span><span></span><span></span><br /><span></span><span></span><span></span><span></span><span></span><br />
                             </div>
                             <div className={style.main_design_four_holder_item_two_design}>
