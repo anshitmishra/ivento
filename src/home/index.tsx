@@ -184,7 +184,8 @@ const Home = () => {
                     </div>
                 </section>
 
-            </div>
+            </div> 
+            
             <div className={style.mainFooter}>
                 <p>copyright © 2022 developed by <a target={"_blank"} rel={"noreferrer"} href="https://github.com/anshitmishra">anshit mishra</a></p>
             </div>
