@@ -64,7 +64,8 @@
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .main_team_design h2{
