@@ -5,7 +5,9 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { TbBrandDiscord } from "react-icons/tb";
 import { FaRegWindowMinimize, FaRegWindowMaximize, FaTimes } from "react-icons/fa";
 import { BiCheckbox, } from "react-icons/bi";
+import { HiMenuAlt1 } from "react-icons/hi";
 import { BsTriangle, BsCircle } from "react-icons/bs";
+
 const Home = () => {
 
     return (
@@ -145,8 +147,8 @@ const Home = () => {
                         </div>
                         <div className={style.main_section_three_holder_item_two}>
                             <div className={style.main_section_three_holder_item_two_design}>
-                                <h2>eSports </h2>
-                                <p>I{'\''}vent{'\''}O is first club of itm that organize and support e-sports. we are organizing a esports event on 26th of Nov 2022. so join us and show case what you got!</p>
+                                <h2 ><HiMenuAlt1 size={40} style={{position:"relative",top:"10px"}}/>sports </h2>                                <p>I{'\''}vent{'\''}O is first club of itm that organize and support e-sport
+s. we are organizing a esports event on 26th of Nov 2022. so join us and show case what you got!</p>
                                 <a href="https://forms.gle/pX8GCNrcukK5wvhh7" target={"_blank"}  rel={"noreferrer"}><button>join event</button></a>
                                 <div className={style.main_section_three_holder_item_two_design_design}>
                                     <p style={{ color: "#38dfc9" }}><BsTriangle /></p>
