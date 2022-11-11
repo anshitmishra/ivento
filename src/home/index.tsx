@@ -192,7 +192,7 @@ s. we are organizing a esports event on 26th of Nov 2022. so join us and show ca
 
             </div> 
             <div className={style.mainTeam}>
-                <p>view team members</p>
+                <Link href={"./team"}><p>view team members</p></Link>
             </div>
             <div className={style.mainFooter}>
                 <p>copyright © 2022 developed by <a target={"_blank"} rel={"noreferrer"} href="https://github.com/anshitmishra">anshit mishra</a></p>
