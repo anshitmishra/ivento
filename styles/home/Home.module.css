@@ -527,6 +527,24 @@
     object-fit: cover;
 }
 
+.main_section_three_holder_item_one_design_three {
+    position: relative;
+    width: 150px;
+    height: 350px;
+    margin-right: 20px;
+    border-radius: 70px;
+    background-color: white;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.main_section_three_holder_item_one_design_three img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .main_section_three_holder_item_one_design_design {
     position: absolute;
     top: -50px;
@@ -766,13 +784,15 @@
     font-weight: 400;
     font-family: 'ubuntu', sans-serif;
 }
-.mainFooter{
+
+.mainFooter {
     position: relative;
     width: 100%;
     height: auto;
-    padding:5px;
+    padding: 5px;
     background: #0f1921;
 }
+
 .mainFooter p {
     position: relative;
     width: 100%;
@@ -781,7 +801,7 @@
     font-size: 15px;
     font-weight: 400;
     color: white;
-    font-family: 'ubuntu',sans-serif;
+    font-family: 'ubuntu', sans-serif;
 }
 
 
@@ -1206,6 +1226,25 @@
         object-fit: cover;
     }
 
+
+    .main_section_three_holder_item_one_design_three {
+        position: relative;
+        width: 100px;
+        height: 250px;
+        margin-right: 20px;
+        border-radius: 70px;
+        background-color: white;
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    .main_section_three_holder_item_one_design_three img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
     .main_section_three_holder_item_one_design_design {
         position: absolute;
         top: -50px;
@@ -1357,7 +1396,7 @@
 
 
 
-    
+
     /* #################### section four start ######################### */
     .main_design_four_holder {
         position: relative;
@@ -1367,7 +1406,7 @@
     }
 
     .main_design_four_holder_item_one {
-        position:relative;
+        position: relative;
         width: 100%;
         height: 50%;
     }
@@ -1401,7 +1440,7 @@
     }
 
     .main_design_four_holder_item_two {
-        position:relative;
+        position: relative;
         width: 100%;
         height: 50%;
         overflow: visible;
@@ -2192,6 +2231,25 @@
     }
 
     .main_section_three_holder_item_one_design_two img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    .main_section_three_holder_item_one_design_three {
+        position: relative;
+        width: 150px;
+        height: 400px;
+        margin-right: 20px;
+        border-radius: 70px;
+        background-color: white;
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    .main_section_three_holder_item_one_design_three img {
         position: relative;
         width: 100%;
         height: 100%;

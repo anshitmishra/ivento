@@ -132,19 +132,21 @@ const Home = () => {
                                     <p style={{ color: "#ed6c6a" }}><BsCircle /></p>
                                     <p style={{ color: "#9bade4" }}><FaTimes /></p>
                                 </div>
+                                <div className={style.main_section_three_holder_item_one_design_three}>
+                                    <img src="/images/tekken.jpg" alt="tekken " />
+                                </div>
                                 <div className={style.main_section_three_holder_item_one_design_one}>
                                     <img src="/images/section3image.jpg" alt="game " />
                                 </div>
                                 <div className={style.main_section_three_holder_item_one_design_two}>
                                     <img src="/images/bgmi.webp" alt="game " />
-
                                 </div>
                             </div>
                         </div>
                         <div className={style.main_section_three_holder_item_two}>
                             <div className={style.main_section_three_holder_item_two_design}>
                                 <h2>eSports </h2>
-                                <p>I{'\''}vent{'\''}O is first club of itm that organize and support e-sports. we are organizing a esports event on 12th of Nov 2022. so join us and show case what you got!</p>
+                                <p>I{'\''}vent{'\''}O is first club of itm that organize and support e-sports. we are organizing a esports event on 26th of Nov 2022. so join us and show case what you got!</p>
                                 <a href="https://forms.gle/pX8GCNrcukK5wvhh7" target={"_blank"}  rel={"noreferrer"}><button>join event</button></a>
                                 <div className={style.main_section_three_holder_item_two_design_design}>
                                     <p style={{ color: "#38dfc9" }}><BsTriangle /></p>
