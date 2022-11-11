@@ -7,6 +7,7 @@ import { FaRegWindowMinimize, FaRegWindowMaximize, FaTimes } from "react-icons/f
 import { BiCheckbox, } from "react-icons/bi";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { BsTriangle, BsCircle } from "react-icons/bs";
+import Link from "next/link";
 
 const Home = () => {
 
@@ -112,7 +113,7 @@ const Home = () => {
                                         </p>
                                         <ul>
                                         <a href="https://www.instagram.com/ivento_itm/" target={"_blank"}  rel={"noreferrer"}><li>Join Club</li></a>
-                                        <a href="https://www.instagram.com/ivento_itm/" target={"_blank"}  rel={"noreferrer"}><li>Details IventO Tech Team</li></a>
+                                        <Link href="./team" ><li>Details I{"'"}vent{"'"}O Team</li></Link>
                                         <a href="#esports" ><li>Scroll Down To Explore More</li></a></ul>
 
                                     </div>
@@ -190,7 +191,9 @@ s. we are organizing a esports event on 26th of Nov 2022. so join us and show ca
                 </section>
 
             </div> 
-            
+            <div className={style.mainTeam}>
+                <p>view team members</p>
+            </div>
             <div className={style.mainFooter}>
                 <p>copyright © 2022 developed by <a target={"_blank"} rel={"noreferrer"} href="https://github.com/anshitmishra">anshit mishra</a></p>
             </div>
