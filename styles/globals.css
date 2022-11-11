@@ -19,7 +19,7 @@ a {
   scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
   scroll-behavior: smooth;
   color-scheme: dark;
@@ -29,4 +29,4 @@ a {
   scroll-behavior: smooth;
   background: black;
   }
-}
+} */
