@@ -21,7 +21,7 @@ const Events = () => {
                     </div>
                     <div className={style.mainBgDesignFour}>
                         <button className={style.mainBgDesignFourButton}>Register Now</button>
-                        <Link href={"./#details"}><p>scroll down for details <AiOutlineDown style={{ lineHeight: "0px" }} /></p></Link>
+                        <Link href={"/esports/event/#details"}><p>scroll down for details <AiOutlineDown style={{ lineHeight: "0px" }} /></p></Link>
                     </div>
                     <div className={style.mainBgDesignTwo}>
                         <img src="/images/esports/events/1/3.png" alt="valorent" />
