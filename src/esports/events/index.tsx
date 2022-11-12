@@ -5,6 +5,7 @@ import Footer from "../../common/footer";
 import { AiOutlineDown } from "react-icons/ai";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { TbBrandDiscord } from "react-icons/tb";
+import Link from "next/link";
 const Events = () => {
     return (
         <>
@@ -20,7 +21,7 @@ const Events = () => {
                     </div>
                     <div className={style.mainBgDesignFour}>
                         <button className={style.mainBgDesignFourButton}>Register Now</button>
-                        <p>scroll down for details <AiOutlineDown style={{ lineHeight: "0px" }} /></p>
+                        <Link href={"/#details"}><p>scroll down for details <AiOutlineDown style={{ lineHeight: "0px" }} /></p></Link>
                     </div>
                     <div className={style.mainBgDesignTwo}>
                         <img src="/images/esports/events/1/3.png" alt="valorent" />
@@ -35,7 +36,7 @@ const Events = () => {
                         <p>terms {"&"} conditions applied.</p>
                     </div>
                 </div>
-                <div className={style.mainContianer}>
+                <div className={style.mainContianer} id="details">
                     <h2>Description</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, atque. At dolore sint officia, ex ad, ipsa commodi reiciendis eius voluptatem accusantium eos. Tenetur provident commodi earum molestias, sapiente eveniet?
                         Culpa pariatur quaerat fuga consequatur earum delectus sequi, labore voluptatum, assumenda maxime asperiores totam explicabo omnis quidem eos ea fugit velit sit quam non minus dolor eaque distinctio. Vitae, laudantium!
