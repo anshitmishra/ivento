@@ -19,13 +19,13 @@ const Header = () => {
                     </div>
                     <div className={style.main_header_menu_item_holder}>
                         <div className={style.main_header_menu_item}>
-                            <Link href="/team"><p>tech</p></Link>
+                            <Link href="/#tech"><p>tech</p></Link>
                         </div>
                         <div className={style.main_header_menu_item}>
-                            <Link href="/team"><p>non-tech</p></Link>
+                            <Link href="/#non-tech"><p>non-tech</p></Link>
                         </div>
                         <div className={style.main_header_menu_item}>
-                            <Link href="/team"><p>esports</p></Link>
+                            <Link href="/#esports"><p>esports</p></Link>
                         </div>
                         <div className={style.main_header_menu_item}>
                             <Link href="/team"><p>Team</p></Link>

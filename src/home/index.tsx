@@ -150,9 +150,9 @@ const Home = () => {
                         <div className={style.main_section_three_holder_item_two}>
                             <div className={style.main_section_three_holder_item_two_design}>
                                 <h2 ><HiMenuAlt1 size={40} style={{position:"relative",top:"10px"}}/>sports </h2>                                
-                                <p>I{'\''}vent{'\''}O is first club of itm that organize and support e-sport
+                                <p>I{'\''}vent{'\''}O is first club of itm that organize and support eSports
 s. we are organizing a esports event on 26th of Nov 2022. so join us and show case what you got!</p>
-                                <a href="https://forms.gle/pX8GCNrcukK5wvhh7" target={"_blank"}  rel={"noreferrer"}><button>join event</button></a>
+                                <Link href={"/esports/event"} passHref><button>join event</button></Link>
                                 <div className={style.main_section_three_holder_item_two_design_design}>
                                     <p style={{ color: "#38dfc9" }}><BsTriangle /></p>
                                     <p style={{ color: "#d692be" }}><BiCheckbox /></p>
