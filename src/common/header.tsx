@@ -41,7 +41,7 @@ const Header = () => {
                     <AiOutlineClose />
                 </div>
                 <div className={style.main_header_menu_item_two}>
-                    <img src="./images/logo.png" alt="ivento logo" />
+                    <img src="/images/logo.png" alt="ivento logo" />
                 </div>
                 <div>
 
