@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+.main {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.mainBg{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    background-image: url("/images/esports/events/1/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mainBgDesignOne {
+    position: absolute;
+    bottom: -170px;
+    right: 40px;
+    width: auto;
+    height: 100%;
+    max-width: 450px;
+}
+.mainBgDesignOne img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.mainBgDesignTwo {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    width: 450px;
+    height: 450px;
+    max-width: 450px;
+}
+.mainBgDesignTwo img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/*  */
+
+.mainBgDesignThree {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    letter-spacing: 7px;
+    /* text-decoration: line-through; */
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Black Ops One', 'ubuntu',sans-serif;
+}
+
+.mainBgDesignFour {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: auto;
+height: auto;
+}
+
+.mainBgDesignFourButton{
+    width: 300px;
+    height: 80px;
+    font-size: 30px;
+    font-family: 'Ubuntu',cursive;
+    background: linear-gradient(45deg , transparent 5%, #000 5%);
+    border: 0px;
+    color: white;
+    letter-spacing: 3px;
+    line-height: 80px;
+    box-shadow: 6px 0px 0px #00e6f6;
+    outline: transparent;
+    position: relative;
+}
+
+.mainBgDesignFourButton::after{
+    width: 300px;
+    height: 80px;
+    font-size: 33px;
+    font-family: 'Ubuntu',cursive;
+    background: linear-gradient(45deg , transparent 5%, #ff013c 5%);
+    border: 0px;
+    color: white;
+    letter-spacing: 3px;
+    line-height: 80px;
+    box-shadow: 6px 0px 0px #00e6f6;
+    outline: transparent;
+    position: relative;
+
+
+    --slice-0:inset(50% 50% 50% 50%);
+    --slice-1:inset(80% -6px 0 0);
+    --slice-2:inset(50% -6px 30% 0);
+    --slice-3:inset(10% -6px 85% 0);
+    --slice-4:inset(40% -6px 43% 0);
+    --slice-5:inset(80% -6px 5% 0);
+
+    content: 'Register Now';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: linear-gradient(45deg , transparent 1%, #00e6f6 3%,#00e6f6 5%, #ff013c 5%);
+    text-shadow: -3px -3px 0px #f8f005  
+                3px 3px 0px #00e6f6;
+                clip-path: var(--slice-0);
+}
+
+.mainBgDesignFourButton:hover::after{
+    animation: 1s glitch;
+    animation-timing-function: steps(2,end);
+}
+
+
+@keyframes glitch {
+    0%{
+        clip-path: var(--slice-1);
+        transform: translate(-20px, 10px);
+    }
+    10%{
+        clip-path: var(--slice-3);
+        transform: translate(10px, 10px);
+    }
+    20%{
+        clip-path: var(--slice-1);
+        transform: translate(-10px, -10px);
+    }
+    30%{
+        clip-path: var(--slice-3);
+        transform: translate(0px, 5px);
+    }
+    40%{
+        clip-path: var(--slice-2);
+        transform: translate(-5px, 0px);
+    }
+    50%{
+        clip-path: var(--slice-3);
+        transform: translate(5px, 0px);
+    }
+    60%{
+        clip-path: var(--slice-4);
+        transform: translate(5px, 10px);
+    }
+    70%{
+        clip-path: var(--slice-2);
+        transform: translate(-10px, 10px);
+    }
+    80%{
+        clip-path: var(--slice-5);
+        transform: translate(20px, -10px);
+    }
+    90%{
+        clip-path: var(--slice-5);
+        transform: translate(-10px,0px);
+    }
+    100%{
+        clip-path: var(--slice-1);
+        transform: translate(0);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.mainContianer {
+    position: relative;
+    width: 100%;
+    height: 900px;
+
+}

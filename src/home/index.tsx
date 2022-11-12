@@ -8,6 +8,7 @@ import { BiCheckbox, } from "react-icons/bi";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { BsTriangle, BsCircle } from "react-icons/bs";
 import Link from "next/link";
+import Footer from "../common/footer";
 
 const Home = () => {
 
@@ -191,12 +192,7 @@ s. we are organizing a esports event on 26th of Nov 2022. so join us and show ca
                 </section>
 
             </div> 
-            <div className={style.mainTeam}>
-                <Link href={"./team"}><p>view team members</p></Link>
-            </div>
-            <div className={style.mainFooter}>
-                <p>copyright © 2022 developed by <a target={"_blank"} rel={"noreferrer"} href="https://github.com/anshitmishra">anshit mishra</a></p>
-            </div>
+            <Footer/>
         </>
     )
 }

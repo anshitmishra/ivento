@@ -10,7 +10,7 @@ const Header = () => {
         <>
             <div className={style.header_main}>
                 <Link href={'/home'}><div className={style.header_main_logo}>
-                    <img src="./images/logo.png" alt="ivento logo" />
+                    <img src="/images/logo.png" alt="ivento logo" />
                 </div></Link>
 
                 <div className={style.main_heaeder_menu_holder}>

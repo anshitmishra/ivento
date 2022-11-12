@@ -1,0 +1,42 @@
+
+.mainTeam {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background: #0f1921;
+}
+
+.mainTeam p {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    font-family: 'ubuntu', sans-serif;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.mainTeam p:hover {
+    text-decoration: underline;
+}
+.mainFooter {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background: #0f1921;
+}
+
+.mainFooter p {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    font-family: 'ubuntu', sans-serif;
+}
