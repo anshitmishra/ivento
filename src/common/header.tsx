@@ -46,13 +46,13 @@ const Header = () => {
                 <div>
 
                     <div className={style.main_header_menu_item_two}>
-                        <Link href="/team"><p>tech</p></Link>
+                        <Link href="/#team"><p>tech</p></Link>
                     </div>
                     <div className={style.main_header_menu_item_two}>
-                        <Link href="/team"><p>non-tech</p></Link>
+                        <Link href="/#non-team"><p>non-tech</p></Link>
                     </div>
                     <div className={style.main_header_menu_item_two}>
-                        <Link href="/team"><p>esports</p></Link>
+                        <Link href="/#esports"><p>esports</p></Link>
                     </div>
                     <div className={style.main_header_menu_item_two}>
                         <Link href="/team"><p>Team</p></Link>

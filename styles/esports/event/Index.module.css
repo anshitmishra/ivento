@@ -280,14 +280,19 @@
 
 .mainContainerList {
     position: relative;
+    font-weight: 500;
 }
 
 .mainContainerList li {
     margin: 5px auto;
+    font-weight: 500;
+    text-transform: capitalize;
 }
 
 .mainContainerListTwo {
     list-style: lower-roman;
+    font-weight: 500;
+
 }
 
 
@@ -347,7 +352,7 @@
 
     .mainBgDesignThree {
         position: absolute;
-        top: 50px;
+        top: 0px;
         left: 0px;
         transform: none;
         width: 100%;

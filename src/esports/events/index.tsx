@@ -16,11 +16,13 @@ const Events = () => {
                         <img src="/images/esports/events/1/1.png" alt="valorent" />
                     </div>
                     <div className={style.mainBgDesignThree}>
-                        <h2>Shake Down Season 1</h2>
+                        <h2 style={{lineHeight:"20px"}}>
+                        <p style={{fontSize:"25px",lineHeight:"40px",marginLeft:"auto",marginRight:"auto",width:"330px",background:"#FFA701"}}>limited slots</p>
+                            Shake Down Season 1</h2>
                         <h4 style={{ width: "100%", textAlign: "center" }}>show case what you got!</h4>
                     </div>
                     <div className={style.mainBgDesignFour}>
-                        <button className={style.mainBgDesignFourButton}>Register Now</button>
+                        <a href="https://forms.gle/ZHzaoiaMo2hTgv9b8" target={"_blank"}   rel={"noreferrer"}><button className={style.mainBgDesignFourButton}>Register Now</button></a>
                         <Link href={"/esports/event/#details"}><p>scroll down for details <AiOutlineDown style={{ lineHeight: "0px" }} /></p></Link>
                     </div>
                     <div className={style.mainBgDesignTwo}>
@@ -51,6 +53,13 @@ const Events = () => {
                                 <li className={style.mainContainerListTwo}>MBA</li>
                             </ul>
                         </ul>
+                    <h2>Games</h2>
+                    <ul className={style.mainContainerList}>
+                        <li>BGMI {'(mobile)'}</li>
+                        <li>valorant {'(laptop)'}</li>
+                        <li>Tekken {'(playstation)'}</li>
+
+                    </ul>
                     <h2>Event Rules and Regulations-</h2>
                         <ul className={style.mainContainerList}>
                             <li>Registration is Free for everyone.</li>
