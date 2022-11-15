@@ -16,6 +16,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
+}
+.mainBgVideo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+    filter: brightness(60%);
 }
 
 .mainBgDesignOne {
@@ -62,7 +73,7 @@
     font-size: 30px;
     letter-spacing: 7px;
     /* text-decoration: line-through; */
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-family: 'Black Ops One', 'ubuntu', sans-serif;
 }
@@ -87,6 +98,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
     cursor: pointer;
 }
 
@@ -305,7 +317,7 @@
     .mainBg {
         position: relative;
         width: 100%;
-        height: 600px;
+        height: 100vh;
         background-image: url("/images/esports/events/1/bg.png");
         background-position: 80%;
         background-repeat: no-repeat;
@@ -352,16 +364,16 @@
 
     .mainBgDesignThree {
         position: absolute;
-        top: 0px;
+        top: 40%;
         left: 0px;
-        transform: none;
+        transform: translateY(-60%);
         width: 100%;
         height: auto;
         text-align: center;
         font-size: 20px;
         letter-spacing: 2px;
         /* text-decoration: line-through; */
-        color: black;
+        color: white;
         text-transform: uppercase;
         font-family: 'Black Ops One', 'ubuntu', sans-serif;
     }
@@ -394,6 +406,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        color: white;
         cursor: pointer;
     }
 
@@ -538,7 +551,7 @@
         font-size: 30px;
         letter-spacing: 2px;
         /* text-decoration: line-through; */
-        color: black;
+        color: white;
         text-transform: uppercase;
         font-family: 'Black Ops One', 'ubuntu', sans-serif;
     }
@@ -568,6 +581,7 @@
         font-size: 15px;
         font-weight: 500;
         /* line-height: 22px; */
+        color: white;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -715,7 +729,7 @@
         font-size: 30px;
         letter-spacing: 2px;
         /* text-decoration: line-through; */
-        color: black;
+        color: white;
         text-transform: uppercase;
         font-family: 'Black Ops One', 'ubuntu', sans-serif;
     }
@@ -745,6 +759,7 @@
         font-size: 15px;
         font-weight: 500;
         /* line-height: 22px; */
+        color: white;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -892,7 +907,7 @@
         font-size: 30px;
         letter-spacing: 2px;
         /* text-decoration: line-through; */
-        color: black;
+        color: white;
         text-transform: uppercase;
         font-family: 'Black Ops One', 'ubuntu', sans-serif;
     }
@@ -922,6 +937,7 @@
         font-size: 15px;
         font-weight: 500;
         /* line-height: 22px; */
+        color: white;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1069,7 +1085,7 @@
         font-size: 30px;
         letter-spacing: 2px;
         /* text-decoration: line-through; */
-        color: black;
+        color: white;
         text-transform: uppercase;
         font-family: 'Black Ops One', 'ubuntu', sans-serif;
     }
@@ -1099,6 +1115,7 @@
         font-size: 15px;
         font-weight: 500;
         /* line-height: 22px; */
+        color: white;
         display: flex;
         justify-content: center;
         align-items: center;

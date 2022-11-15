@@ -26,13 +26,12 @@ const Home = () => {
                         </div>
 
 
-
                         {/* design two */}
                         <div className={style.main_design_two}>
-                           <span> <a href="https://www.facebook.com/people/ivento_itm/100086248157978/" target={"_blank"}  rel={"noreferrer"}><FaFacebookF /></a></span>
-                            <span><a href="https://www.instagram.com/ivento_itm/" target={"_blank"}  rel={"noreferrer"}><FaInstagram /></a></span>
-                            <span><a href="https://twitter.com/ivento_itm?s=20&t=6DxUTd_UE9nUUTXjtGN3WQ" target={"_blank"}  rel={"noreferrer"}><FaTwitter /></a></span>
-                            <span><a href="https://discord.com/invite/QxKUswx7KZ" target={"_blank"}  rel={"noreferrer"}><TbBrandDiscord /></a></span>
+                            <span> <a href="https://www.facebook.com/people/ivento_itm/100086248157978/" target={"_blank"} rel={"noreferrer"}><FaFacebookF /></a></span>
+                            <span><a href="https://www.instagram.com/ivento_itm/" target={"_blank"} rel={"noreferrer"}><FaInstagram /></a></span>
+                            <span><a href="https://twitter.com/ivento_itm?s=20&t=6DxUTd_UE9nUUTXjtGN3WQ" target={"_blank"} rel={"noreferrer"}><FaTwitter /></a></span>
+                            <span><a href="https://discord.com/invite/QxKUswx7KZ" target={"_blank"} rel={"noreferrer"}><TbBrandDiscord /></a></span>
                         </div>
 
 
@@ -58,7 +57,7 @@ const Home = () => {
                                 <span>O</span>
                             </div>
                             <div className={style.main_deisgn_four_letters_two}>
-                                <p>Show Case What You Got</p>
+                                <p>Showcase What You Got</p>
                             </div>
                         </div>
 
@@ -108,14 +107,14 @@ const Home = () => {
                                         </pre>
                                         <p>
                                             IventO:\User\{'>'} I{'\''}vent{'\''}O Tech --help<br /><br />
-                                            I{'\''}vent{'\''}O is a club that based on three category{'\''}s. we organize compition for you so<br /> show case what you got<br /><br />
+                                            I{'\''}vent{'\''}O is a club that based on three category{'\''}s. we organize compition for you so<br /> showcase what you got<br /><br />
 
                                             Options -- {'(Click Option)'}<br />
                                         </p>
                                         <ul>
-                                        <a href="https://www.instagram.com/ivento_itm/" target={"_blank"}  rel={"noreferrer"}><li>Join Club</li></a>
-                                        <Link href="./team" ><li>Details I{"'"}vent{"'"}O Team</li></Link>
-                                        <a href="#esports" ><li>Scroll Down To Explore More</li></a></ul>
+                                            <a href="https://www.instagram.com/ivento_itm/" target={"_blank"} rel={"noreferrer"}><li>Join Club</li></a>
+                                            <Link href="./team" ><li>Details I{"'"}vent{"'"}O Team</li></Link>
+                                            <a href="#esports" ><li>Scroll Down To Explore More</li></a></ul>
 
                                     </div>
                                 </div>
@@ -149,9 +148,9 @@ const Home = () => {
                         </div>
                         <div className={style.main_section_three_holder_item_two}>
                             <div className={style.main_section_three_holder_item_two_design}>
-                                <h2 ><HiMenuAlt1 size={40} style={{position:"relative",top:"10px"}}/>sports </h2>                                
+                                <h2 ><HiMenuAlt1 size={40} style={{ position: "relative", top: "10px" }} />sports </h2>
                                 <p>I{'\''}vent{'\''}O is first club of itm that organize and support eSports
-s. we are organizing a esports event on 26th of Nov 2022. so join us and show case what you got!</p>
+                                    s. we are organizing a esports event on 26th of Nov 2022. so join us and showcase what you got!</p>
                                 <Link href={"/esports/event"} passHref><button>join event</button></Link>
                                 <div className={style.main_section_three_holder_item_two_design_design}>
                                     <p style={{ color: "#38dfc9" }}><BsTriangle /></p>
@@ -175,7 +174,7 @@ s. we are organizing a esports event on 26th of Nov 2022. so join us and show ca
                             </div>
                         </div>
                         <div className={style.main_design_four_holder_item_two}>
-                            <div className={style.main_design_four_holder_item_one_design} style={{zIndex:"99",bottom:"0px",padding:"5px"}}>
+                            <div className={style.main_design_four_holder_item_one_design} style={{ zIndex: "99", bottom: "0px", padding: "5px" }}>
                                 <span></span><span></span><span></span><span></span><span></span><br /><span></span><span></span><span></span><span></span><span></span><br /><span></span><span></span><span></span><span></span><span></span><br /><span></span><span></span><span></span><span></span><span></span><br />
                             </div>
                             <div className={style.main_design_four_holder_item_two_design}>
@@ -191,8 +190,8 @@ s. we are organizing a esports event on 26th of Nov 2022. so join us and show ca
                     </div>
                 </section>
 
-            </div> 
-            <Footer/>
+            </div>
+            <Footer />
         </>
     )
 }

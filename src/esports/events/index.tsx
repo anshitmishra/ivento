@@ -12,22 +12,23 @@ const Events = () => {
             <div className={style.main}>
                 <Header />
                 <div className={style.mainBg}>
-                    <div className={style.mainBgDesignOne}>
+                    <video className={style.mainBgVideo} autoPlay loop muted> <source src="/images/video.mp4" type="video/mp4"/></video>
+                    {/* <div className={style.mainBgDesignOne}>
                         <img src="/images/esports/events/1/1.png" alt="valorent" />
-                    </div>
+                    </div> */}
                     <div className={style.mainBgDesignThree}>
                         <h2 style={{lineHeight:"20px"}}>
-                        <p style={{fontSize:"25px",lineHeight:"40px",marginLeft:"auto",marginRight:"auto",width:"330px",background:"#FFA701"}}>limited slots</p>
+                        <p style={{fontSize:"25px",lineHeight:"40px",marginLeft:"auto",marginRight:"auto",width:"330px",background:"#FFA701",color:"#111"}}>limited slots</p>
                             Shake Down Season 1</h2>
-                        <h4 style={{ width: "100%", textAlign: "center" }}>show case what you got!</h4>
+                        <h4 style={{ width: "100%", textAlign: "center" }}>showcase what you got!</h4>
                     </div>
                     <div className={style.mainBgDesignFour}>
                         <a href="https://forms.gle/ZHzaoiaMo2hTgv9b8" target={"_blank"}   rel={"noreferrer"}><button className={style.mainBgDesignFourButton}>Register Now</button></a>
                         <Link href={"/esports/event/#details"}><p>scroll down for details <AiOutlineDown style={{ lineHeight: "0px" }} /></p></Link>
                     </div>
-                    <div className={style.mainBgDesignTwo}>
+                    {/* <div className={style.mainBgDesignTwo}>
                         <img src="/images/esports/events/1/3.png" alt="valorent" />
-                    </div>
+                    </div> */}
                     <div className={style.mainBgDesignFive}>
                         <span> <a href="https://www.facebook.com/people/ivento_itm/100086248157978/" target={"_blank"} rel={"noreferrer"}><FaFacebookF /></a></span>
                         <span><a href="https://www.instagram.com/ivento_itm/" target={"_blank"} rel={"noreferrer"}><FaInstagram /></a></span>
@@ -40,9 +41,7 @@ const Events = () => {
                 </div>
                 <div className={style.mainContianer} id="details">
                     <h2>Description</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, atque. At dolore sint officia, ex ad, ipsa commodi reiciendis eius voluptatem accusantium eos. Tenetur provident commodi earum molestias, sapiente eveniet?
-                        Culpa pariatur quaerat fuga consequatur earum delectus sequi, labore voluptatum, assumenda maxime asperiores totam explicabo omnis quidem eos ea fugit velit sit quam non minus dolor eaque distinctio. Vitae, laudantium!
-                       </p>
+                    <p>The much awaited eSports event "" will be held on 26th of November. Students who aspire to try their hand at eSports could form teams and take part in a team match in multiplayer games such as Valorant, BGMI and Tekken 7. The event will be held in GFL Lab/Python Lab in Sitholi Campus, ITM.</p>
                     <h2>Eligibility</h2>
                         <ul className={style.mainContainerList}>
                             <li>Every Participant should be a student of ITM GOI.</li>
