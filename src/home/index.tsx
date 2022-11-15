@@ -149,8 +149,7 @@ const Home = () => {
                         <div className={style.main_section_three_holder_item_two}>
                             <div className={style.main_section_three_holder_item_two_design}>
                                 <h2 ><HiMenuAlt1 size={40} style={{ position: "relative", top: "10px" }} />sports </h2>
-                                <p>I{'\''}vent{'\''}O is first club of itm that organize and support eSports
-                                    s. we are organizing a esports event on 26th of Nov 2022. so join us and showcase what you got!</p>
+                                <p>I{'\''}vent{'\''}O is first club of itm that organize and support eSport. we are organizing an esports event on 26th of Nov 2022, so join us and showcase what you got!</p>
                                 <Link href={"/esports/event"} passHref><button>join event</button></Link>
                                 <div className={style.main_section_three_holder_item_two_design_design}>
                                     <p style={{ color: "#38dfc9" }}><BsTriangle /></p>
@@ -183,7 +182,7 @@ const Home = () => {
                             <div className={style.main_design_four_holder_item_two_design_text}>
 
                                 <h3>Non Tech</h3>
-                                <p>I{'\''}vent{'\''}O non tech team based on different types of task like handling social media managing events and many other things.</p>
+                                <p>I{'\''}vent{'\''}O non tech team is based on different types of tasks like handling social media managing events and many other things.</p>
                             </div>
 
                         </div>

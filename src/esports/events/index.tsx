@@ -5,6 +5,8 @@ import Footer from "../../common/footer";
 import { AiOutlineDown } from "react-icons/ai";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { TbBrandDiscord } from "react-icons/tb";
+import { HiOutlineLocationMarker } from "react-icons/hi";
+
 import Link from "next/link";
 const Events = () => {
     return (
@@ -34,6 +36,7 @@ const Events = () => {
                         <span><a href="https://www.instagram.com/ivento_itm/" target={"_blank"} rel={"noreferrer"}><FaInstagram /></a></span>
                         <span><a href="https://twitter.com/ivento_itm?s=20&t=6DxUTd_UE9nUUTXjtGN3WQ" target={"_blank"} rel={"noreferrer"}><FaTwitter /></a></span>
                         <span><a href="https://discord.com/invite/QxKUswx7KZ" target={"_blank"} rel={"noreferrer"}><TbBrandDiscord /></a></span>
+                        <span><a href="https://goo.gl/maps/ae2zMSPYsvCpS8Ta6" target={"_blank"} rel={"noreferrer"}><HiOutlineLocationMarker /></a></span>
                     </div>
                     <div className={style.mainBgDesignSix}>
                         <p>terms {"&"} conditions applied.</p>
@@ -41,7 +44,7 @@ const Events = () => {
                 </div>
                 <div className={style.mainContianer} id="details">
                     <h2>Description</h2>
-                    <p>The much awaited eSports event will be held on 26th of November. Students who aspire to try their hand at eSports could form teams and take part in a team match in multiplayer games such as Valorant, BGMI and Tekken 7. The event will be held in GFL Lab/Python Lab in Sitholi Campus, ITM.</p>
+                    <p>The much awaited eSports event is going to be held on 26th of November. Students who aspire to try their hand at eSports could form teams or participate solo in multiple games such as Valorant, BGMI and Tekken7. The event will be held in GFL Lab/Python Lab in Sitholi Campus, ITM.</p>
                     <h2>Eligibility</h2>
                         <ul className={style.mainContainerList}>
                             <li>Every Participant should be a student of ITM GOI.</li>
