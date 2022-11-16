@@ -71,6 +71,21 @@
     background-color: #D9D9D9;
 }
 
+/* itm logo */
+.header_main_logo2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: auto;
+    height: auto;
+    max-height: 150px;
+}
+.header_main_logo2 {
+    position: relative;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
 /* design two */
 .main_design_two {
     position: absolute;
@@ -936,7 +951,21 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+    .header_main_logo2 {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: auto;
+        height: auto;
+        max-height: 90px;
+    }
+    .header_main_logo2 img{
+        position: relative;
+        width: auto;
+        max-height: 90px;
+        height: auto;
+        object-fit: contain;
+    }
     /* design three  */
     .main_design_three {
         position: absolute;
@@ -1746,7 +1775,22 @@
         display: block;
         background-color: #D9D9D9;
     }
-
+/* itm logo */
+.header_main_logo2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: auto;
+    height: auto;
+    max-height: 120px;
+}
+.header_main_logo2 img{
+    position: relative;
+    width: auto;
+    max-height: 120px;
+    height: auto;
+    object-fit: contain;
+}
     .main_design_two_item {
         position: absolute;
         bottom: -5px;

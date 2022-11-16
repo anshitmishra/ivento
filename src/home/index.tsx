@@ -25,7 +25,11 @@ const Home = () => {
                             <span className={style.main_design_two_item}></span>
                         </div>
 
+                        <Link href={'/home'}><div className={style.header_main_logo2}>
+                            <img src="/images/itmlogo.png" alt="ivento logo" />
+                        </div></Link>
 
+                        
                         {/* design two */}
                         <div className={style.main_design_two}>
                             <span> <a href="https://www.facebook.com/people/ivento_itm/100086248157978/" target={"_blank"} rel={"noreferrer"}><FaFacebookF /></a></span>

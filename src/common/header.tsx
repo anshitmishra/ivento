@@ -10,8 +10,9 @@ const Header = () => {
         <>
             <div className={style.header_main}>
                 <Link href={'/home'}><div className={style.header_main_logo}>
-                    <img src="/images/logo.png" alt="ivento logo" />
+                    <img src="/images/logoe.png" alt="ivento logo" />
                 </div></Link>
+               
 
                 <div className={style.main_heaeder_menu_holder}>
                     <div className={style.main_header_menu_box_icon} onClick={() => setMenuShow(!menuShow)}>
@@ -27,9 +28,9 @@ const Header = () => {
                         <div className={style.main_header_menu_item}>
                             <Link href="/#esports"><p>esports</p></Link>
                         </div>
-                        <div className={style.main_header_menu_item}>
+                        {/* <div className={style.main_header_menu_item}>
                             <Link href="/team"><p>Team</p></Link>
-                        </div>
+                        </div> */}
                         {/* <Link href="/home/#tech"><div className={style.main_header_menu_item}>
                             <p>about-us</p>
                         </div></Link> */}
