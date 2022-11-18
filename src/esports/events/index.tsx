@@ -44,7 +44,7 @@ const Events = () => {
                 </div>
                 <div className={style.mainContianer} id="details">
                     <h2>Description</h2>
-                    <p>The much awaited eSports event is going to be held on 26th of November. Students who aspire to try their hand at eSports could form teams or participate solo in multiple games such as Valorant, BGMI and Tekken7. The event will be held in GFL Lab/Python Lab in Sitholi Campus, ITM.</p>
+                    <p>The much awaited eSports event is going to be held on 22nd of November. Students who aspire to try their hand at eSports could form teams or participate solo in multiple games such as BGMI and Tekken7. The event will be held in ffl and Project Lab in Sitholi Campus, ITM.</p>
                     <h2>Eligibility</h2>
                         <ul className={style.mainContainerList}>
                             <li>Every Participant should be a student of ITM GOI.</li>
@@ -58,7 +58,6 @@ const Events = () => {
                     <h2>Games</h2>
                     <ul className={style.mainContainerList}>
                         <li>BGMI {'(mobile)'}</li>
-                        <li>valorant {'(laptop)'}</li>
                         <li>Tekken {'(playstation)'}</li>
 
                     </ul>

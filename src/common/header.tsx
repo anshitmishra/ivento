@@ -28,9 +28,7 @@ const Header = () => {
                         <div className={style.main_header_menu_item}>
                             <Link href="/#esports"><p>esports</p></Link>
                         </div>
-                        {/* <div className={style.main_header_menu_item}>
-                            <Link href="/team"><p>Team</p></Link>
-                        </div> */}
+                        
                         {/* <Link href="/home/#tech"><div className={style.main_header_menu_item}>
                             <p>about-us</p>
                         </div></Link> */}
