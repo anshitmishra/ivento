@@ -56,7 +56,6 @@ const team = () => {
                     <TeamCard name="ayush mishra" image={"/images/team/12121.png"} position={"I'vent'O tech co-head"} facebook={""}instagram={"https://instagram.com/ayushmishravlogs"}  twitter={""} linkedIn={" https://www.linkedin.com/in/ayush-mishra-936791203"}   github={""}  youtube={" https://youtube.com/c/CodersCommunity"}/>
                     <TeamCard name="adarsh " image={"/images/team/12323123312.jpg"} position={"I'vent'O eSports co-head"} facebook={"https://www.facebook.com/people/Adarsh-Dubey/100029093229302/"}instagram={"https://www.instagram.com/_.isshh_parsh/"}  twitter={"https://twitter.com/kakashi3007?t=Rb3FSsCgTNk6Twx_Dlw7SA&s=09"} linkedIn={""}   github={""}  youtube={""}/>
                     <TeamCard name="ayush sharma" image={"/images/team/12312312.jpg"} position={"I'vent'O management co-head"} facebook={"https://m.facebook.com/100012964263341/"} instagram={"https://www.instagram.com/itzayushsharma/"}  twitter={"https://mobile.twitter.com/i_ayush_sharma_"} linkedIn={""}   github={""}  youtube={""}/>
-
                     </div>
                 </div>
             </div>
