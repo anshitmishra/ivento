@@ -119,7 +119,6 @@ const Home = () => {
                                             <a href="https://www.instagram.com/ivento_itm/" target={"_blank"} rel={"noreferrer"}><li>Join Club</li></a>
                                             <Link href="./team" ><li>Details I{"'"}vent{"'"}O Team</li></Link>
                                             <a href="#esports" ><li>Scroll Down To Explore More</li></a></ul>
-
                                     </div>
                                 </div>
                             </div>
