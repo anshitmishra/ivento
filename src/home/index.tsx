@@ -77,7 +77,6 @@ const Home = () => {
                             </div>
                         </div>
 
-
                         {/* design two */}
                         <div className={style.main_section_two_design_two}>
                             {/* console design */}
