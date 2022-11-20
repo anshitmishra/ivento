@@ -95,7 +95,6 @@ const Home = () => {
                                         <p id={style.section_two_console_design_close}><FaTimes /></p>
                                     </div>
                                 </div>
-
                                 {/* console log design main body */}
                                 <div className={style.main_section_two_design_two_design_holder_body}>
                                     <div className={style.main_section_two_design_two_design_holder_body_text_holder}>
