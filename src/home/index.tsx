@@ -67,7 +67,6 @@ const Home = () => {
 
                     </div>
                 </section>
-
                 <section id={style.section_two} className={style.section}>
                     <div className={style.main_section_two} id="tech">
                         {/* design one */}
