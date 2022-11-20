@@ -38,7 +38,6 @@ const TeamCard: NextPage<card> = (props: any) => {
         </>
     )
 }
-
 const team = () => {
 
     return (
