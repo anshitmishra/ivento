@@ -43,10 +43,8 @@ const team = () => {
         <>
             <div className={style.mainContainer}>
                 <Header></Header>
-
                 <div className={style.mainContainer_design}>
                     <h1>Team Members</h1>
-
                     <div className={style.mainTeamCardHolder}>
                     <TeamCard name="aazam khan" image={"/images/team/121.jpg"} position={"I'vent'O head"} facebook={""}instagram={"https://instagram.com/iam_wiz_7"}  twitter={""} linkedIn={"https://www.linkedin.com/in/aazam-khan-997602226/"} github={""}  youtube={""}/>
                     <TeamCard name="anshit mishra" image={"/images/team/1231.jpg"} position={"I'vent'O tech head"} facebook={""}instagram={""}  twitter={"https://twitter.com/Anshit_03"} linkedIn={"https://www.linkedin.com/in/anshit-mishra-172b33237"} github={"https://github.com/anshitmishra"}  youtube={""}/>
