@@ -124,7 +124,6 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </section>
                 <section id={style.section_three} className={style.section}>
