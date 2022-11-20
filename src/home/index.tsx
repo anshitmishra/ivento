@@ -76,7 +76,6 @@ const Home = () => {
                                 <img src="/images/section2image1.webp" alt="computer image" />
                             </div>
                         </div>
-
                         {/* design two */}
                         <div className={style.main_section_two_design_two}>
                             {/* console design */}
