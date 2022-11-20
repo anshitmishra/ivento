@@ -16,8 +16,6 @@ interface card {
     github: any,
     youtube: any,
 }
-
-
 const TeamCard: NextPage<card> = (props: any) => {
     return (
         <>
@@ -62,5 +60,4 @@ const team = () => {
         </>
     )
 }
-
 export default team;
