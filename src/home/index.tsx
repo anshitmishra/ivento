@@ -64,7 +64,6 @@ const Home = () => {
                                 <p>Showcase What You Got</p>
                             </div>
                         </div>
-
                     </div>
                 </section>
                 <section id={style.section_two} className={style.section}>
