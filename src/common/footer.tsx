@@ -9,7 +9,7 @@ const Footer = () => {
                 <Link href={"/team"}><p>Contact Us</p></Link>
             </div>
             <div className={style.mainFooter}>
-                <p>copyright © 2022 </p>
+                <p>copyright © 2022 developed by <a target={"_blank"} rel={"noreferrer"} href="https://github.com/anshitmishra">anshit mishra</a></p>
             </div>
         </>
     )
